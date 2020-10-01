@@ -194,6 +194,26 @@
           "",
           ""
      ]
+},
+{
+     "nom":"Christian UBERTINI",
+     "titre":"Architecte",
+     "email":"christian.ubertini@ueh.edu.ht",
+     "phone":"+41 76 506 3369",
+     "diplomes":[
+      "Maitrise en Patrimoine Archéologique Monumental 2001, Université Marc-Bloch, Strasbourg.",
+     "Diplôme en Architecture 1997, Haute Ecole Spécialisée de Genève.",
+     "Dessinateur en bâtiment 1991, Ecole Professionnelle de Lausanne."
+     ],
+     "biographie":"Architecte de formation, il s’intéresse à la compréhension de l’architecture plus qu’à sa réalisation. Il est l’auteur de plusieurs études et publications sur l’architecture de l’Égypte antique. Membre de l’ICOMOS et du DOCOMOMO, il est actif dans le domaine de la conservation du patrimoine. Établis en Haïti depuis 2009, il travaille comme architecte expert au sein de plusieurs agences internationales. Il a notamment appuyé l’État haïtien dans l’élaboration des référentiels techniques pour la normalisation des écoles en Haïti. Il enseigne l’histoire de l’architecture moderne et d’introduction à la notion du patrimoine. Il mène un projet de documentation du patrimoine de l’architecture moderne du XXe siècle en Haïti.",
+      "cours":["Histoire de l’architecture moderne en Haïti (M1-HAMH2-236)",
+          "Introduction à la notion du patrimoine"],
+     "expertise":[
+          "Théorie et critique architecturale ",
+          "Conservation du patrimoine bâti",
+          "Recherches et enseignements",
+          "Gestion et conception de projets"
+     ]
 }
       
      ]
@@ -393,6 +413,26 @@
      "expertise":[
           "",
           ""
+     ]
+},
+{
+     "nom":"Christian UBERTINI",
+     "titre":"Architecte",
+     "email":"christian.ubertini@ueh.edu.ht",
+     "phone":"+41 76 506 3369",
+     "diplomes":[
+      "Maitrise en Patrimoine Archéologique Monumental 2001, Université Marc-Bloch, Strasbourg.",
+     "Diplôme en Architecture 1997, Haute Ecole Spécialisée de Genève.",
+     "Dessinateur en bâtiment 1991, Ecole Professionnelle de Lausanne."
+     ],
+     "biographie":"Architecte de formation, il s’intéresse à la compréhension de l’architecture plus qu’à sa réalisation. Il est l’auteur de plusieurs études et publications sur l’architecture de l’Égypte antique. Membre de l’ICOMOS et du DOCOMOMO, il est actif dans le domaine de la conservation du patrimoine. Établis en Haïti depuis 2009, il travaille comme architecte expert au sein de plusieurs agences internationales. Il a notamment appuyé l’État haïtien dans l’élaboration des référentiels techniques pour la normalisation des écoles en Haïti. Il enseigne l’histoire de l’architecture moderne et d’introduction à la notion du patrimoine. Il mène un projet de documentation du patrimoine de l’architecture moderne du XXe siècle en Haïti.",
+      "cours":["Histoire de l’architecture moderne en Haïti (M1-HAMH2-236)",
+          "Introduction à la notion du patrimoine"],
+     "expertise":[
+          "Théorie et critique architecturale ",
+          "Conservation du patrimoine bâti",
+          "Recherches et enseignements",
+          "Gestion et conception de projets"
      ]
 }
     

@@ -20,7 +20,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="#">
-        www.urbater.org
+        www.urbater.com
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}

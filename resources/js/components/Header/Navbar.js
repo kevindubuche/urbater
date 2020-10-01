@@ -111,6 +111,8 @@ import data from './Navbar.json';
                 <Link to="/activites/konbits" className="nav-link dropdown-item ">{TEXT.activites.Konbit}</Link>
                 <div className="dropdown-divider"></div>
                   <Link to="/activites/conferences" className="nav-link dropdown-item" href="/">{TEXT.activites.Conferences}</Link>
+                 <div className="dropdown-divider"></div>
+                  <Link to="/activites/DocArchiMos" className="nav-link dropdown-item" href="/">{TEXT.activites.DocArchiMo}</Link>
                  </div>
               </li>
                  <li className="nav-item dropdown">
