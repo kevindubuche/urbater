@@ -1,0 +1,407 @@
+{
+     "francais":{
+          "title":"PROFESSEURS",
+     "profs":[
+          {
+               "nom":"Karine BOUCHEREAU",
+               "titre":"",
+               "email":"",
+               "phone":"",
+               "diplomes":[
+                "",
+               "",
+               ""
+               ],
+               "biographie":"",
+                "cours":["",
+                          ""],
+               "expertise":[
+                    "",
+                    ""
+               ]
+          },
+           {
+      "nom":"Jean Odile ETIENNE",
+      "titre":"Enseignant-Chercheur",
+      "email":"jeanodile78@yahoo.fr",
+      "phone":"3271-1680/3393-2576",
+      "diplomes":[
+       "Doctorat en Géographie à l’Université Paris 8 ",
+      "Master2 recherche Géographie des Pays Emergents et en Développement à  l’Université  Paris1 Panthéon Sorbonne",
+      "Master1(Maitrise) en Géographie à l’Université Paris1 Panthéon Sorbonne"
+      ],
+      "biographie":"Jean Odile ETIENNE is a Geographer-Urbanist, Researcher, Expert-Consultant-Head of Studies and Research in Development. He is a specialist in Risk Management and Vulnerability Reduction. Dr Etienne received his Doctorate in Geography from the University of Paris-VIII/Saint Denis, France. He obtained his Master’s degree from the University of Paris-I, Sorbonne/Pantheon, France. He completed his undergraduate studies at the Ecole Normale Supérieure of Port-au-Prince. He has many years of experience as a professor at the State University of Haiti in Port-au-Prince and in Gonaives. ",
+       "cours":["Résilience et gestion des risques territoriaux ",
+                 "Résilience et gestion des risques humains"],
+      "expertise":[
+           "Reconstruction post-catastrophe",
+           "Vulnérabilités post-catastrophe",
+           "Aménagement du territoire",
+           "Urbanisme",
+           "Vulnérabilités urbaines",
+           "Géographie urbaine et sociale",
+           "Gestion de risques et de réduction des vulnérabilités"
+      ]
+ },
+  {
+      "nom":"Kelly GUERRIER",
+      "titre":"Enseignant-Chercheur",
+      "email":"kelly.guerrier@ueh.edu.ht",
+      "phone":"+50928171065",
+      "diplomes":[
+       " Administration Publique, 2017,École Nationale d'Administration et de Politiques Publiques (Haïti) ",
+      "Docteur en Sciences de l'Ingénieur, 2013, Université catholique de Louvain (Belgique) ",
+      "Ingénieur Civil, 2006, Université d'État d'Haïti (Haïti)"
+      ],
+      "biographie":"Kelly Guerrier est diplômé de la FDS-UEH en génie civil en 2006. Il bénéficie la même année d’une bourse de doctorat en Sciences de l’Ingénieur à l’Université catholique de Louvain en Belgique dans le cadre d’une coopération universitaire entre l’UEH, l’Université catholique de Louvain et l’Université de Liège financé par la Commission Universitaire pour le Développement (CUD). En 2011, il est engagé comme enseignant chercheur à l'UEH. Il rentre définitivement en Haïti après sa soutenance de thèse en décembre de 2013. Actuellement, Kelly Guerrier est co-promoteur de 2 projets de coopération avec la Belgique financés par l'Académie pour la Recherche et l'Enseignement Supérieur (ARES) :  - URBANISME RESILIENT ET AMÉNAGEMENT DES TERRITOIRES A RISQUES (URBATER) avec l'UMons et l'ULiège - EARTHQUAKE HAZARD AND VULNERABILITY ASSESSMENT – DEVELOPING INNOVATIVE SOLUTIONS FOR SUSTAINABLE RISK REDUCTION AND COMMUNICATION IN HAITI avec l'ULiège et l'UNamur ",
+       "cours":["Risques,  climat et géologie ( M1-RCG2-214)",
+                 "Résilience et gestion des risques humains"],
+      "expertise":[
+           "Géophysique",
+           " Géotechnique",
+           "Mouvements de sols"
+      ]
+ },
+ 
+
+ {
+     "nom":"Guerline JEAN",
+     "titre":"Titre Economiste Géographe Urbaniste",
+     "email":"guerline.jean@ueh.edu.ht",
+     "phone":"509 48996693",
+     "diplomes":[
+      "2008-2009 Master 2 professionnel Gestion Locale Etude et conduite de Projet Université de Toulouse 2 Jean-Jaurès (UT2), France Bac+5, 120 crédits",
+     "2005-2006 Master 2 Recherche, Mention Géographie et Aménagement, spécialité Amérique Latine dans le domaine des Sciences Humaines et Sociales, Géographie, à finalité Recherche, Université de Toulouse 2 Jean-Jaurès (UT2), France Bac+5, 120 crédit",
+     "2000-2005 Licence en Economie: Gestion des entreprises, Management, administration économique et gestion d'entreprises Université de la Havane, bac+5, Cuba",
+     "1999-2000 Propédeutique en espagnol, langue étrangère - Université Agraire de la Havane, Cuba."
+     ],
+     "biographie":"Doctorante en Art de bâtir et urbanisme, détentrice d'un Master 2 à finalités recherche en géographie et aménagement du territoire, d'un Master 2 professionnel en sociologie, spécialité gestion locale : étude et conduite de projets, spécialisée en urbanisme; détentrice d'une licence en économie, administration économique et gestion d'entreprises; possède une très bonne connaissance des politiques urbaines et des dispositifs; outils et instruments en matière d'urbanisme réglementaire et opérationnel, de planification urbaine, d'équipements, d'environnement et de la mobilité.",
+      "cours":["2019 à date chargée de cours Ingénierie urbaine et réseaux, Master 1 Urbanisme (UrbATer)"],
+     "expertise":[
+          "Enseignement",
+          "aménagement du territoire et de l'urbai",
+          "Montage",
+          "Gestion et évaluation de projets",
+          "Passation de marchés et en gestion opérationnelle"
+     ]
+},
+
+ {
+     "nom":"Isabelle Alice JOLICOEUR",
+     "titre":"Enseignante",
+     "email":"isabelle_alice.jolicoeur@ueh.edu.ht",
+     "phone":"34 56 95 94",
+     "diplomes":[
+      "Maitrise en Architecture 2015, Université de Montréal (Canada)",
+     "Licence en Architecture2010, Université de Montréal (Canada)"
+     ],
+     "biographie":"Née en Haïti, Isabelle A. Jolicoeur obtient sa licence puis une Maitrise en Architecture de l’Université de Montréal. Avant de co-fonder la firme d’architecture Ateliers Co-Lab elle accumule huit (8) années d’expérience au sein d’agences primées à Montréal comme Atelier VAP, MXMA et MU Architecture. En 2015, elle fonde Aetypik, une plateforme qui agit à la fois comme une vitrine virtuelle sur la créativité Haïtienne mais aussi comme incubateur d’initiatives formatrices et inspirantes (conférences, ateliers etc.) pour professionnels ainsi que le grand public. Avec ces multiples engagements, elle cultive une même mission: faire valoir l’architecture, et la créativité en général, comme outil indispensable au façonnement d’une société durable. S’épanouissant le mieux dans un cadre collaboratif, son souci du détail ainsi que son sens de l’initiative lui permettent de mener à bien tous projets. Elle enseigne également à l’Université Quisqueya et au sein de la Maîtrise en Urbanisme Résilient et Territoires à risques (Urbater) de l'UEH.",
+      "cours":["Architecture Résiliente : méthodologie de suivi et d’évaluation (M2-ARLPME2-114)"],
+     "expertise":[
+          "Architecture résiliente",
+          " Conception et gestion de projet",
+          "Architecture et numérique"
+     ]
+},
+       
+     
+ {
+      "nom":"Joseph Garry LHERISSON",
+      "titre":"Architecte et Urbaniste",
+      "email":"garry.lherisson@ueh.edu.ht",
+      "phone":"(509) 3614-9307",
+      "diplomes":[
+       "Ingénieur-Architecte 1978 - 1982, Faculté des Sciences, Université d'Etat d’Haïti, HAITI ",
+      "Diplôme d'Etudes Approfondies (DEA) en Développement, Aménagement et Dynamique des milieux humains des pays méditerranéens et du tiers-monde tropical",
+      "1986 - 1987, Institut de Géographie d'Aix-en-Provence, Université Aix-Marseille II, FRANCE"
+      ],
+      "biographie":"Au cours de ses 38 années de pratique de l’architecture Garry LHERISSON a, en particulier, réalisé l’étude d’équipements collectifs : marchés publics, places et parcs, gares routières. Au cours de ses 32 ans de pratique de l’urbanisme, il a travaillé : sur l’Aire Métropolitaine de Port-au-Prince, respectivement en 1988 (Plan Directeur d’Urbanisme), en 1997 (Profil environnemental), en 2002 (Plan-Programme de Développement et Programme d’initiatives Urbaines), en 2009 (Initiatives et projets porteurs pour un renouveau du centre-ville) et en 2011-2012 ; sur : Cap-Haitien, Jacmel, Gonaïves, Fonds-Verettes, Limbé, La Gonave,... Ce parcours professionnel s’est étalé, comme fonctionnaire, au MTPTC, pendant 13 années, dont 3 au poste de responsable de la Section d’Urbanisme ; comme consultant, au Ministère du Tourisme (2 années), au PNUD (4 années) en appui aux collectivités territoriales et à des directions départementales du ministère de la Planification et à AAU et à ÆdificaSud. Depuis 2010 il est professeur à la Faculté des Sciences de l’UEH, en charge du cours Urbanisme en AR3.",
+       "cours":["Voiries et Espaces publics / ???",
+                 "Législation / M2LEG2 314"],
+      "expertise":[
+           "Territoire haïtien (Ecrits et connaissance physique sur 40 ans) ;",
+           "Fait Urbain haïtien (Ecrits et connaissance physique sur 40 ans) ;",
+           "Aire Métropolitaine de Port-au-Prince ",
+           "Législation haïtienne de l’urbanisme et Outils associés.",
+           "Equipements urbains dans le contexte d’Haïti, marchés publics en particulier."
+      ]
+ },
+ {
+     "nom":"Rhodner ORISMA",
+     "titre":"",
+     "email":"",
+     "phone":"",
+     "diplomes":[
+      "",
+     "",
+     ""
+     ],
+     "biographie":"",
+      "cours":["",
+                ""],
+     "expertise":[
+          "",
+          ""
+     ]
+},
+{
+     "nom":"Christine STEPHENSON",
+     "titre":"",
+     "email":"",
+     "phone":"",
+     "diplomes":[
+      "",
+     "",
+     ""
+     ],
+     "biographie":"",
+      "cours":["",
+                ""],
+     "expertise":[
+          "",
+          ""
+     ]
+},
+ {
+     "nom":"James Rudolph SAINT-CYR",
+     "titre":"Enseignant-chercheur/ Responsable Administratif du Master URBATeR FD",
+     "email":"Jamesr.saintcyr@gmail.com",
+     "phone":"+509 36 98 93 56",
+     "diplomes":[
+      "Doctorat en Sciences du Langage et de la communication, Février 2014",
+     "Doctorat, PHD, Université de Rouen, France Ecole Doctorale: Histoire, Mémoire, Patrimoine, Langage, 2005",
+     "MASTER - MASTER’S DEGREE, Mention très bien, spécialité Sciences du Langage, Université de Rouen, France, 2003",
+     "Licence de Français Langue Etrangère, Mention Bien, mention bien spécialité Sciences du Langage, Université de Rouen, France, Licence"
+     ],
+     "biographie":"",
+      "cours":[""],
+     "expertise":[""]
+},
+{
+     "nom":"Jean-Marie THÉODAT",
+     "titre":"",
+     "email":"",
+     "phone":"",
+     "diplomes":[
+      "",
+     "",
+     ""
+     ],
+     "biographie":"",
+      "cours":["",
+                ""],
+     "expertise":[
+          "",
+          ""
+     ]
+}
+      
+     ]
+     
+ 
+    
+     },
+     "creole":{
+          "title":"PWOFESE",
+     "profs":[
+          {
+               "nom":"Karine BOUCHEREAU",
+               "titre":"",
+               "email":"",
+               "phone":"",
+               "diplomes":[
+                "",
+               "",
+               ""
+               ],
+               "biographie":"",
+                "cours":["",
+                          ""],
+               "expertise":[
+                    "",
+                    ""
+               ]
+          },
+              {
+      "nom":"Jean Odile ETIENNE",
+      "titre":"Enseignant-Chercheur",
+      "email":"jeanodile78@yahoo.fr",
+      "phone":"3271-1680/3393-2576",
+      "diplomes":[
+       "Doctorat en Géographie à l’Université Paris 8 ",
+      "Master2 recherche Géographie des Pays Emergents et en Développement à  l’Université  Paris1 Panthéon Sorbonne",
+      "Master1(Maitrise) en Géographie à l’Université Paris1 Panthéon Sorbonne"
+      ],
+      "biographie":"Jean Odile ETIENNE is a Geographer-Urbanist, Researcher, Expert-Consultant-Head of Studies and Research in Development. He is a specialist in Risk Management and Vulnerability Reduction. Dr Etienne received his Doctorate in Geography from the University of Paris-VIII/Saint Denis, France. He obtained his Master’s degree from the University of Paris-I, Sorbonne/Pantheon, France. He completed his undergraduate studies at the Ecole Normale Supérieure of Port-au-Prince. He has many years of experience as a professor at the State University of Haiti in Port-au-Prince and in Gonaives. ",
+       "cours":["Résilience et gestion des risques territoriaux ",
+                 "Résilience et gestion des risques humains"],
+      "expertise":[
+           "Reconstruction post-catastrophe",
+           "Vulnérabilités post-catastrophe",
+           "Aménagement du territoire",
+           "Urbanisme",
+           "Vulnérabilités urbaines",
+           "Géographie urbaine et sociale",
+           "Gestion de risques et de réduction des vulnérabilités"
+      ]
+ },
+  {
+      "nom":"Kelly GUERRIER",
+      "titre":"Enseignant-Chercheur",
+      "email":"kelly.guerrier@ueh.edu.ht",
+      "phone":"+50928171065",
+      "diplomes":[
+       " Administration Publique, 2017,École Nationale d'Administration et de Politiques Publiques (Haïti) ",
+      "Docteur en Sciences de l'Ingénieur, 2013, Université catholique de Louvain (Belgique) ",
+      "Ingénieur Civil, 2006, Université d'État d'Haïti (Haïti)"
+      ],
+      "biographie":"Kelly Guerrier est diplômé de la FDS-UEH en génie civil en 2006. Il bénéficie la même année d’une bourse de doctorat en Sciences de l’Ingénieur à l’Université catholique de Louvain en Belgique dans le cadre d’une coopération universitaire entre l’UEH, l’Université catholique de Louvain et l’Université de Liège financé par la Commission Universitaire pour le Développement (CUD). En 2011, il est engagé comme enseignant chercheur à l'UEH. Il rentre définitivement en Haïti après sa soutenance de thèse en décembre de 2013. Actuellement, Kelly Guerrier est co-promoteur de 2 projets de coopération avec la Belgique financés par l'Académie pour la Recherche et l'Enseignement Supérieur (ARES) :  - URBANISME RESILIENT ET AMÉNAGEMENT DES TERRITOIRES A RISQUES (URBATER) avec l'UMons et l'ULiège - EARTHQUAKE HAZARD AND VULNERABILITY ASSESSMENT – DEVELOPING INNOVATIVE SOLUTIONS FOR SUSTAINABLE RISK REDUCTION AND COMMUNICATION IN HAITI avec l'ULiège et l'UNamur ",
+       "cours":["Risques,  climat et géologie ( M1-RCG2-214)",
+                 "Résilience et gestion des risques humains"],
+      "expertise":[
+           "Géophysique",
+           " Géotechnique",
+           "Mouvements de sols"
+      ]
+ },
+ {
+     "nom":"Guerline JEAN",
+     "titre":"Titre Economiste Géographe Urbaniste",
+     "email":"guerline.jean@ueh.edu.ht",
+     "phone":"509 48996693",
+     "diplomes":[
+      "2008-2009 Master 2 professionnel Gestion Locale Etude et conduite de Projet Université de Toulouse 2 Jean-Jaurès (UT2), France Bac+5, 120 crédits",
+     "2005-2006 Master 2 Recherche, Mention Géographie et Aménagement, spécialité Amérique Latine dans le domaine des Sciences Humaines et Sociales, Géographie, à finalité Recherche, Université de Toulouse 2 Jean-Jaurès (UT2), France Bac+5, 120 crédit",
+     "2000-2005 Licence en Economie: Gestion des entreprises, Management, administration économique et gestion d'entreprises Université de la Havane, bac+5, Cuba",
+     "1999-2000 Propédeutique en espagnol, langue étrangère - Université Agraire de la Havane, Cuba."
+     ],
+     "biographie":"Doctorante en Art de bâtir et urbanisme, détentrice d'un Master 2 à finalités recherche en géographie et aménagement du territoire, d'un Master 2 professionnel en sociologie, spécialité gestion locale : étude et conduite de projets, spécialisée en urbanisme; détentrice d'une licence en économie, administration économique et gestion d'entreprises; possède une très bonne connaissance des politiques urbaines et des dispositifs; outils et instruments en matière d'urbanisme réglementaire et opérationnel, de planification urbaine, d'équipements, d'environnement et de la mobilité.",
+      "cours":["2019 à date chargée de cours Ingénierie urbaine et réseaux, Master 1 Urbanisme (UrbATer)"],
+     "expertise":[
+          "Enseignement",
+          "aménagement du territoire et de l'urbai",
+          "Montage",
+          "Gestion et évaluation de projets",
+          "Passation de marchés et en gestion opérationnelle"
+     ]
+},
+
+ {
+     "nom":"Isabelle Alice JOLICOEUR",
+     "titre":"Enseignante",
+     "email":"isabelle_alice.jolicoeur@ueh.edu.ht",
+     "phone":"34 56 95 94",
+     "diplomes":[
+      "Maitrise en Architecture 2015, Université de Montréal (Canada)",
+     "Licence en Architecture2010, Université de Montréal (Canada)"
+     ],
+     "biographie":"Née en Haïti, Isabelle A. Jolicoeur obtient sa licence puis une Maitrise en Architecture de l’Université de Montréal. Avant de co-fonder la firme d’architecture Ateliers Co-Lab elle accumule huit (8) années d’expérience au sein d’agences primées à Montréal comme Atelier VAP, MXMA et MU Architecture. En 2015, elle fonde Aetypik, une plateforme qui agit à la fois comme une vitrine virtuelle sur la créativité Haïtienne mais aussi comme incubateur d’initiatives formatrices et inspirantes (conférences, ateliers etc.) pour professionnels ainsi que le grand public. Avec ces multiples engagements, elle cultive une même mission: faire valoir l’architecture, et la créativité en général, comme outil indispensable au façonnement d’une société durable. S’épanouissant le mieux dans un cadre collaboratif, son souci du détail ainsi que son sens de l’initiative lui permettent de mener à bien tous projets. Elle enseigne également à l’Université Quisqueya et au sein de la Maîtrise en Urbanisme Résilient et Territoires à risques (Urbater) de l'UEH.",
+      "cours":["Architecture Résiliente : méthodologie de suivi et d’évaluation (M2-ARLPME2-114)"],
+     "expertise":[
+          "Architecture résiliente",
+          " Conception et gestion de projet",
+          "Architecture et numérique"
+     ]
+},
+       
+     
+ {
+      "nom":"Joseph Garry LHERISSON",
+      "titre":"Architecte et Urbaniste",
+      "email":"garry.lherisson@ueh.edu.ht",
+      "phone":"(509) 3614-9307",
+      "diplomes":[
+       "Ingénieur-Architecte 1978 - 1982, Faculté des Sciences, Université d'Etat d’Haïti, HAITI ",
+      "Diplôme d'Etudes Approfondies (DEA) en Développement, Aménagement et Dynamique des milieux humains des pays méditerranéens et du tiers-monde tropical",
+      "1986 - 1987, Institut de Géographie d'Aix-en-Provence, Université Aix-Marseille II, FRANCE"
+      ],
+      "biographie":"Au cours de ses 38 années de pratique de l’architecture Garry LHERISSON a, en particulier, réalisé l’étude d’équipements collectifs : marchés publics, places et parcs, gares routières. Au cours de ses 32 ans de pratique de l’urbanisme, il a travaillé : sur l’Aire Métropolitaine de Port-au-Prince, respectivement en 1988 (Plan Directeur d’Urbanisme), en 1997 (Profil environnemental), en 2002 (Plan-Programme de Développement et Programme d’initiatives Urbaines), en 2009 (Initiatives et projets porteurs pour un renouveau du centre-ville) et en 2011-2012 ; sur : Cap-Haitien, Jacmel, Gonaïves, Fonds-Verettes, Limbé, La Gonave,... Ce parcours professionnel s’est étalé, comme fonctionnaire, au MTPTC, pendant 13 années, dont 3 au poste de responsable de la Section d’Urbanisme ; comme consultant, au Ministère du Tourisme (2 années), au PNUD (4 années) en appui aux collectivités territoriales et à des directions départementales du ministère de la Planification et à AAU et à ÆdificaSud. Depuis 2010 il est professeur à la Faculté des Sciences de l’UEH, en charge du cours Urbanisme en AR3.",
+       "cours":["Voiries et Espaces publics / ???",
+                 "Législation / M2LEG2 314"],
+      "expertise":[
+           "Territoire haïtien (Ecrits et connaissance physique sur 40 ans) ;",
+           "Fait Urbain haïtien (Ecrits et connaissance physique sur 40 ans) ;",
+           "Aire Métropolitaine de Port-au-Prince ",
+           "Législation haïtienne de l’urbanisme et Outils associés.",
+           "Equipements urbains dans le contexte d’Haïti, marchés publics en particulier."
+      ]
+ } ,
+ {
+     "nom":"Rhodner ORISMA",
+     "titre":"",
+     "email":"",
+     "phone":"",
+     "diplomes":[
+      "",
+     "",
+     ""
+     ],
+     "biographie":"",
+      "cours":["",
+                ""],
+     "expertise":[
+          "",
+          ""
+     ]
+},
+{
+     "nom":"Christine STEPHENSON",
+     "titre":"",
+     "email":"",
+     "phone":"",
+     "diplomes":[
+      "",
+     "",
+     ""
+     ],
+     "biographie":"",
+      "cours":["",
+                ""],
+     "expertise":[
+          "",
+          ""
+     ]
+},
+ {
+     "nom":"James Rudolph SAINT-CYR",
+     "titre":"Enseignant-chercheur/ Responsable Administratif du Master URBATeR FD",
+     "email":"Jamesr.saintcyr@gmail.com",
+     "phone":"+509 36 98 93 56",
+     "diplomes":[
+      "Doctorat en Sciences du Langage et de la communication, Février 2014",
+     "Doctorat, PHD, Université de Rouen, France Ecole Doctorale: Histoire, Mémoire, Patrimoine, Langage, 2005",
+     "MASTER - MASTER’S DEGREE, Mention très bien, spécialité Sciences du Langage, Université de Rouen, France, 2003",
+     "Licence de Français Langue Etrangère, Mention Bien, mention bien spécialité Sciences du Langage, Université de Rouen, France, Licence"
+     ],
+     "biographie":"",
+      "cours":[""],
+     "expertise":[""]
+},
+{
+     "nom":"Jean-Marie THÉODAT",
+     "titre":"",
+     "email":"",
+     "phone":"",
+     "diplomes":[
+      "",
+     "",
+     ""
+     ],
+     "biographie":"",
+      "cours":["",
+                ""],
+     "expertise":[
+          "",
+          ""
+     ]
+}
+    
+    
+      
+     ]
+     
+ 
+    
+     }
+    
+ }

@@ -1,0 +1,14 @@
+{
+    "francais":{
+         "title":"LEXIQUE",
+         "body":"Le Créole est la seule langue parlée et comprise par l’ensemble de la société haïtienne. Et le Créole ne dispose pas (encore) d’un vocabulaire propre à l’AdT. Aussi, pour assurer la dissémination d’une culture de l’AdT, tous les médias de diffusion des résultats d’URBATeR seront systématiquement présentés en deux langues : Créole et Français. Cela concerne les affiches, posters, conférences, publications grand public, etc. Les supports de cours du Master, en revanche, seront rédigés en Français afin de permettre un bon fonctionnement des Tokay (ce qui n’empêche pas les enseignants de s’exprimer oralement en Créole, si besoin).\n Pour faciliter la traduction (et en réalité, l’invention du vocabulaire créole spécialisé, à ce jour inexistant), le projet fera appel à un service de « proof reading », et le COSP tiendra à jour un glossaire en deux langues, mis en ligne sur le site web. "
+           ,
+           "button":"Faire une suggestion" },
+    "creole":{
+        "title":"LEKSIK",
+        "body":"Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l. "
+        ,
+           "button":"Fe yon sijesyon"  
+     }
+   
+}

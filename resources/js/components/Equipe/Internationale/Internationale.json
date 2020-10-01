@@ -1,0 +1,391 @@
+{
+    "francais":{
+         "title":"ÉQUIPE INTERNATIONALE",
+         "title2":"MOBILITÉ INTERNATIONALE",
+         "body1":"Le principe des tokay (binômes) est que chaque enseignant Haïtien puisse avoir un partenaire Belge de la même discipline . Ce dernier apporte au premier son soutien en termes de ressources bibliographiques, d’exemples de cours et de pratiques par projet. Le premier apporte sa connaissance intime du terrain et peut ainsi développer un enseignement de qualité et adapté au contexte local, ce qui fait aujourd’hui défaut dans les autres essais de formations. C’est l’enseignant Haïtien qui assure les cours du Master, son collègue Belge l’épaule à distance et/ou lors de rencontres physiques (en Belgique ou en Haïti ) et à l’occasion de l’organisation des Konbit bisannuels. Le binôme est destiné à fonctionner tout au long du projet, jusqu’à ce que le Master haïtien devienne totalement autonome.\nLe binôme se place néanmoins dans une perspective de co-apprentissage et de co-construction mutuels qui développera une coopération bilatérale à long terme, génératrice de futurs projets de recherche et d’enseignement. Cette coopération sera renforcée par l’accueil des doctorants et la venue des enseignants Haïtiens en Belgique, et vice-versa. Les Tokay de coordinateurs d’axe veilleront à stimuler les Tokay de cours afin de rédiger des publications communes haïtiano-belges, soit sur les thèmes du cours, soit sur la pédagogie utilisée. Le système des Tokay, que nous percevons comme une innovation en matière de coopération universitaire, fera également l’objet de publications. Voir la maquette du master pour la composition des tokay URBATER."
+    ,
+         "body2":"Le principe des tokay (binômes) est que chaque enseignant Haïtien puisse avoir un partenaire Belge de la même discipline . Ce dernier apporte au premier son soutien en termes de ressources bibliographiques, d’exemples de cours et de pratiques par projet. Le premier apporte sa connaissance intime du terrain et peut ainsi développer un enseignement de qualité et adapté au contexte local, ce qui fait aujourd’hui défaut dans les autres essais de formations. C’est l’enseignant Haïtien qui assure les cours du Master, son collègue Belge l’épaule à distance et/ou lors de rencontres physiques (en Belgique ou en Haïti ) et à l’occasion de l’organisation des Konbit bisannuels. Le binôme est destiné à fonctionner tout au long du projet, jusqu’à ce que le Master haïtien devienne totalement autonome.\nLe binôme se place néanmoins dans une perspective de co-apprentissage et de co-construction mutuels qui développera une coopération bilatérale à long terme, génératrice de futurs projets de recherche et d’enseignement. Cette coopération sera renforcée par l’accueil des doctorants et la venue des enseignants Haïtiens en Belgique, et vice-versa. Les Tokay de coordinateurs d’axe veilleront à stimuler les Tokay de cours afin de rédiger des publications communes haïtiano-belges, soit sur les thèmes du cours, soit sur la pédagogie utilisée. Le système des Tokay, que nous percevons comme une innovation en matière de coopération universitaire, fera également l’objet de publications. Voir la maquette du master pour la composition des tokay URBATER."
+    
+ ,
+ "profs":[
+
+     {
+          "nom":"Pierre CALLEWIER",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Pierre CORNUT",
+          "titre":"Chargé de Cours à la Faculté d’Architecture et d’Urbanisme de l’Université de Mons",
+          "email":"Pierre.cornut@umons.ac.be",
+          "phone":"",
+          "diplomes":[
+           "Docteur en Sciences, 2000, Université Libre de Bruxelles ULB (Belgique)",
+          "Certificat d’Aptitude à l’Enseignement Supérieur (CAPAES), 2006, ULB & Haute Ecole Lucia de Brouckère",
+          "Agrégation à l’enseignement secondaire supérieur (AESS) en Géographie, 1995, ULB",
+          "Licence en Sciences géographiques, 1994, ULB",
+          "Candidature en Sciences géographiques, 1992, ULB"
+          ],
+          "biographie":"Pierre Cornut est Licencié en Sciences Géographiques et Docteur en Sciences. Aspirant-FNRS de 1995 à 1999, il a réalisé sa thèse à l’ULB et la School of Geography de l’Université d’Oxford sur le thème de la géopolitique de l'eau en Belgique et en Europe. Il a ensuite travaillé sur les thématiques du développement territorial et de la ville à l'Institut de Gestion de l'Environnement et d'Aménagement du Territoire (IGEAT) de l’Université Libre de Bruxelles.\nDe 2006 à 2015, il a rejoint l’équipe de la Direction Administration et Valorisation de la Recherche (AVRE) de l'UMONS, dont il a pris la direction de 2012 à 2015.\nChargé de cours à la Faculté d’architecture et d’urbanisme depuis lors, il enseigne l'urbanisme, la sociologie urbaine, l'aménagement du territoire et la représentation cartographique.\nSes thématiques de recherche portent sur l’urbanisme, les politiques urbaines et les inégalités environnementales.",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "urbanisme",
+               "politiques urbaines",
+               "inégalités environnementales"
+          ]
+     },
+     {
+          "nom":"Guenael DEVILLET",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Kristel MAZY",
+          "titre":"Chargée de Cours",
+          "email":"Kristel.Mazy@umons.ac.be",
+          "phone":"+32 479 545 925",
+          "diplomes":[
+           "Doctorat (PhD) en Art de Bâtir et Urbanisme, 2014, Université Libre de Bruxelles (Belgique) – Université de Lille (France)",
+          "Master Complémentaire en Urbanisme et Aménagement du Territoire, 2008, Université Libre de Bruxelles, Belgique",
+          "Licence en Architecture, 2007, ISAI Victor Horta, 2007, Bruxelles, Belgique"
+          ],
+          "biographie":"En 2014, Kristel Mazy soutient une thèse interrogeant la capacité du projet urbain à reconnecter les villes, leur voie d’eau et leur port (Prix Spécial de Thèse sur la Ville, décerné par l’APERAU et le PUCA en France). Après sa thèse, elle rejoint la cellule Planification de la Ville de Bruxelles.\nEn 2016, elle devient chargée de cours à la Faculté d’Architecture et d’Urbanisme de l’Université de Mons. Titulaire de cours axés sur l’articulation entre l’analyse des mutations territoriales, les processus de projet, les outils d’urbanisme et les systèmes d’acteurs, elle co-anime aussi l’atelier « Architectures - Territoires - Stratégies - Paysages\". Depuis 2018, elle co-coordonne le Master de Spécialisation en Management territorial et Développement Urbain (ULB-UMons), à Charleroi\nSes thématiques de recherche portent sur l’évolution des stratégies, des outils d’urbanisme et des systèmes d’acteurs, dans des contextes convoités tels que les interfaces ville-port ou les friches urbaines.",
+           "cours":["Tokay de James Saint Cyr pour le cours « Travail de Fin d’Etudes »"
+                     ],
+          "expertise":[
+               "Analyse des dynamiques urbaines",
+               "Systèmes d’acteurs",
+               "Stratégies et outils pour le développement territorial",
+               "Territoires d’études : ville-port, friches"
+          ]
+     },
+     {
+          "nom":"Pierre OZER",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Lisa RANDOUR",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Pascal SIMEOENS",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Fabrice SOBCZAK",
+          "titre":"Architecte | Assistant sous-mandat | Doctorant",
+          "email":"fabrice.sobczak@umons.ac.be",
+          "phone":"+32 (0) 65 37 41 24",
+          "diplomes":[
+           "2008, Executive Programme in Real Estate",
+          "Solvay Brussels School of Economics & Management (Belgique) 1987, Grade d’Architecte",
+          "Institut Supérieur d’Architecture Intercommunal – Site de Mons (Belgique)"
+          ],
+          "biographie":"Son implication dans la conception de nombreux projets d’architecture et d’urbanisme tant dans le secteur public que privé lui a permis d’acquérir une expérience professionnelle développée dans le cadre de projets en ville et en périphérie des villes, sur des sites en relation étroite avec un patrimoine existant tout en conciliant démarche durable, rôle social, urbanisme et architecture contemporaine.\nDepuis 2009, il se consacre à une carrière pédagogique au sein de la Faculté d’Architecture et d’Urbanisme de l’UMONS dans le cadre du cours de composition architecturale au sein de la filière Résilience – Laboratoire de Mixité. Il représente également le personnel scientifique au sein du Conseil de Faculté de la FA+U et coordonne le groupe de travail GT CLIMAT au sein de la FA+U.",
+           "cours":["Projet d’Architecture et d’Urbanisme – Résilience – Laboratoire de Mixité IV-II (A - PRVT- 834)",
+                     "Projet d’Architecture et d’Urbanisme – Résilience – Laboratoire de Mixité V-II (A - PRVT- 835)"],
+          "expertise":[
+               "Aménagement urbain",
+               "Conception architecturale"
+          ]
+     },
+     {
+          "nom":"Thomas WAROUX",
+          "titre":"Docteur, Architecte, Assistant pédagogique",
+          "email":"thomas.waroux@umons.ac.be",
+          "phone":"+32(0)65/55.48.10",
+          "diplomes":[
+           "Doctorat (Ph.D.) en Art de Bâtir et Urbanisme: 2018, UMONS (Belgique)",
+          "Doctorat (Ph.D.) en Sciences de l’Information et de la Communication: 2018, UPHF (France)",
+          "Master en Architecture et Urbanisme: 2012, UMONS (Belgique)"
+          ],
+          "biographie":"Architecte de formation, Thomas Waroux est assistant à la Faculté d’Architecture et d’Urbanisme de l’UMONS. Il y enseigne les concepts de mobilité urbaine et de techniques de représentation dont les systèmes d’information géographique (SIG). Il est également maitre assistant à la haute école Condorcet dans le Master en ingénierie et action sociales (MIAS) et enseignant dans le Master de spécialisation en management territorial et développement urbain (MTDU) en collaboration avec l’ULB. En continuité avec sa thèse de doctorat, intitulée “Représenter la vulnérabilité transfrontalière : un modèle pour la mobilité”, ses recherches portent sur la compréhenssion et la représentation des systèmes urbains complexes tels que les systèmes de mobilité, les territoires frontaliers, l’évolution des territoires.",
+           "cours":["SIG Systèmes d’Information Géographique (MPR-XXXX-XXX)"],
+          "expertise":[
+               "Techniques de représentation",
+               "Systèmes d’Information Géographique",
+               "Systémique urbaine",
+               "Mobilité urbaine",
+               "Frontières et discontinuité urbaines"
+          ]
+     },
+     {
+          "nom":"Christian UBERTINI",
+          "titre":"Architecte",
+          "email":"christian.ubertini@ueh.edu.ht",
+          "phone":"+41 76 506 3369",
+          "diplomes":[
+           "Maitrise en Patrimoine Archéologique Monumental 2001, Université Marc-Bloch, Strasbourg.",
+          "Diplôme en Architecture 1997, Haute Ecole Spécialisée de Genève.",
+          "Dessinateur en bâtiment 1991, Ecole Professionnelle de Lausanne."
+          ],
+          "biographie":"Architecte de formation, il s’intéresse à la compréhension de l’architecture plus qu’à sa réalisation. Il est l’auteur de plusieurs études et publications sur l’architecture de l’Égypte antique. Membre de l’ICOMOS et du DOCOMOMO, il est actif dans le domaine de la conservation du patrimoine. Établis en Haïti depuis 2009, il travaille comme architecte expert au sein de plusieurs agences internationales. Il a notamment appuyé l’État haïtien dans l’élaboration des référentiels techniques pour la normalisation des écoles en Haïti. Il enseigne l’histoire de l’architecture moderne et d’introduction à la notion du patrimoine. Il mène un projet de documentation du patrimoine de l’architecture moderne du XXe siècle en Haïti.",
+           "cours":["Histoire de l’architecture moderne en Haïti (M1-HAMH2-236)",
+               "Introduction à la notion du patrimoine"],
+          "expertise":[
+               "Théorie et critique architecturale ",
+               "Conservation du patrimoine bâti",
+               "Recherches et enseignements",
+               "Gestion et conception de projets"
+          ]
+     }
+  
+ ]
+ 
+
+    },
+    "creole":{
+        "title":"EKIP ENTENASYONAL",
+        "title2":"MOBILITE ENTENASYONAL",
+        "body1":"Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l. "
+  ,
+         "body2":"Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l.Sa se yon bel istwa an kreyol men mpa gen anpil bagay poum di ladan l. "
+ ,
+ "profs":[
+     {
+          "nom":"Pierre CALLEWIER",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Pierre CORNUT",
+          "titre":"Chargé de Cours à la Faculté d’Architecture et d’Urbanisme de l’Université de Mons",
+          "email":"Pierre.cornut@umons.ac.be",
+          "phone":"",
+          "diplomes":[
+           "Docteur en Sciences, 2000, Université Libre de Bruxelles ULB (Belgique)",
+          "Certificat d’Aptitude à l’Enseignement Supérieur (CAPAES), 2006, ULB & Haute Ecole Lucia de Brouckère",
+          "Agrégation à l’enseignement secondaire supérieur (AESS) en Géographie, 1995, ULB",
+          "Licence en Sciences géographiques, 1994, ULB",
+          "Candidature en Sciences géographiques, 1992, ULB"
+          ],
+          "biographie":"Pierre Cornut est Licencié en Sciences Géographiques et Docteur en Sciences. Aspirant-FNRS de 1995 à 1999, il a réalisé sa thèse à l’ULB et la School of Geography de l’Université d’Oxford sur le thème de la géopolitique de l'eau en Belgique et en Europe. Il a ensuite travaillé sur les thématiques du développement territorial et de la ville à l'Institut de Gestion de l'Environnement et d'Aménagement du Territoire (IGEAT) de l’Université Libre de Bruxelles.\nDe 2006 à 2015, il a rejoint l’équipe de la Direction Administration et Valorisation de la Recherche (AVRE) de l'UMONS, dont il a pris la direction de 2012 à 2015.\nChargé de cours à la Faculté d’architecture et d’urbanisme depuis lors, il enseigne l'urbanisme, la sociologie urbaine, l'aménagement du territoire et la représentation cartographique.\nSes thématiques de recherche portent sur l’urbanisme, les politiques urbaines et les inégalités environnementales.",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "urbanisme",
+               "politiques urbaines",
+               "inégalités environnementales"
+          ]
+     },
+     {
+          "nom":"Guenael DEVILLET",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Kristel MAZY",
+          "titre":"Chargée de Cours",
+          "email":"Kristel.Mazy@umons.ac.be",
+          "phone":"+32 479 545 925",
+          "diplomes":[
+           "Doctorat (PhD) en Art de Bâtir et Urbanisme, 2014, Université Libre de Bruxelles (Belgique) – Université de Lille (France)",
+          "Master Complémentaire en Urbanisme et Aménagement du Territoire, 2008, Université Libre de Bruxelles, Belgique",
+          "Licence en Architecture, 2007, ISAI Victor Horta, 2007, Bruxelles, Belgique"
+          ],
+          "biographie":"En 2014, Kristel Mazy soutient une thèse interrogeant la capacité du projet urbain à reconnecter les villes, leur voie d’eau et leur port (Prix Spécial de Thèse sur la Ville, décerné par l’APERAU et le PUCA en France). Après sa thèse, elle rejoint la cellule Planification de la Ville de Bruxelles.\nEn 2016, elle devient chargée de cours à la Faculté d’Architecture et d’Urbanisme de l’Université de Mons. Titulaire de cours axés sur l’articulation entre l’analyse des mutations territoriales, les processus de projet, les outils d’urbanisme et les systèmes d’acteurs, elle co-anime aussi l’atelier « Architectures - Territoires - Stratégies - Paysages\". Depuis 2018, elle co-coordonne le Master de Spécialisation en Management territorial et Développement Urbain (ULB-UMons), à Charleroi\nSes thématiques de recherche portent sur l’évolution des stratégies, des outils d’urbanisme et des systèmes d’acteurs, dans des contextes convoités tels que les interfaces ville-port ou les friches urbaines.",
+           "cours":["Tokay de James Saint Cyr pour le cours « Travail de Fin d’Etudes »"
+                     ],
+          "expertise":[
+               "Analyse des dynamiques urbaines",
+               "Systèmes d’acteurs",
+               "Stratégies et outils pour le développement territorial",
+               "Territoires d’études : ville-port, friches"
+          ]
+     },
+     {
+          "nom":"Pierre OZER",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Lisa RANDOUR",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Pascal SIMEOENS",
+          "titre":"",
+          "email":"",
+          "phone":"",
+          "diplomes":[
+           "",
+          "",
+          ""
+          ],
+          "biographie":"",
+           "cours":["",
+                     ""],
+          "expertise":[
+               "",
+               ""
+          ]
+     },
+     {
+          "nom":"Fabrice SOBCZAK",
+          "titre":"Architecte | Assistant sous-mandat | Doctorant",
+          "email":"fabrice.sobczak@umons.ac.be",
+          "phone":"+32 (0) 65 37 41 24",
+          "diplomes":[
+           "2008, Executive Programme in Real Estate",
+          "Solvay Brussels School of Economics & Management (Belgique) 1987, Grade d’Architecte",
+          "Institut Supérieur d’Architecture Intercommunal – Site de Mons (Belgique)"
+          ],
+          "biographie":"Son implication dans la conception de nombreux projets d’architecture et d’urbanisme tant dans le secteur public que privé lui a permis d’acquérir une expérience professionnelle développée dans le cadre de projets en ville et en périphérie des villes, sur des sites en relation étroite avec un patrimoine existant tout en conciliant démarche durable, rôle social, urbanisme et architecture contemporaine.\nDepuis 2009, il se consacre à une carrière pédagogique au sein de la Faculté d’Architecture et d’Urbanisme de l’UMONS dans le cadre du cours de composition architecturale au sein de la filière Résilience – Laboratoire de Mixité. Il représente également le personnel scientifique au sein du Conseil de Faculté de la FA+U et coordonne le groupe de travail GT CLIMAT au sein de la FA+U.",
+           "cours":["Projet d’Architecture et d’Urbanisme – Résilience – Laboratoire de Mixité IV-II (A - PRVT- 834)",
+                     "Projet d’Architecture et d’Urbanisme – Résilience – Laboratoire de Mixité V-II (A - PRVT- 835)"],
+          "expertise":[
+               "Aménagement urbain",
+               "Conception architecturale"
+          ]
+     },
+     {
+          "nom":"Thomas WAROUX",
+          "titre":"Docteur, Architecte, Assistant pédagogique",
+          "email":"thomas.waroux@umons.ac.be",
+          "phone":"+32(0)65/55.48.10",
+          "diplomes":[
+           "Doctorat (Ph.D.) en Art de Bâtir et Urbanisme: 2018, UMONS (Belgique",
+          "Doctorat (Ph.D.) en Sciences de l’Information et de la Communication: 2018, UPHF (France)",
+          "Master en Architecture et Urbanisme: 2012, UMONS (Belgique)"
+          ],
+          "biographie":"Architecte de formation, Thomas Waroux est assistant à la Faculté d’Architecture et d’Urbanisme de l’UMONS. Il y enseigne les concepts de mobilité urbaine et de techniques de représentation dont les systèmes d’information géographique (SIG). Il est également maitre assistant à la haute école Condorcet dans le Master en ingénierie et action sociales (MIAS) et enseignant dans le Master de spécialisation en management territorial et développement urbain (MTDU) en collaboration avec l’ULB. En continuité avec sa thèse de doctorat, intitulée “Représenter la vulnérabilité transfrontalière : un modèle pour la mobilité”, ses recherches portent sur la compréhenssion et la représentation des systèmes urbains complexes tels que les systèmes de mobilité, les territoires frontaliers, l’évolution des territoires.",
+           "cours":["SIG Systèmes d’Information Géographique (MPR-XXXX-XXX)"],
+          "expertise":[
+               "Techniques de représentation",
+               "Systèmes d’Information Géographique",
+               "Systémique urbaine",
+               "Mobilité urbaine",
+               "Frontières et discontinuité urbaines"
+          ]
+     }
+  
+
+
+
+]
+
+ }
+   
+}

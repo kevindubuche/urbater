@@ -1,0 +1,46 @@
+{
+    "francais":{
+         "title":"DIRECTION",
+  "directeur": {
+     "nom":"Kelly GUERRIER",
+     "titre":"Enseignant-Chercheur",
+     "email":"kelly.guerrier@ueh.edu.ht",
+     "phone":"+50928171065",
+     "diplomes":[
+      "Administration Publique, 2017,École Nationale d'Administration et de Politiques Publiques (Haïti) ",
+     "Docteur en Sciences de l'Ingénieur, 2013, Université catholique de Louvain (Belgique) ",
+     "Ingénieur Civil, 2006, Université d'État d'Haïti (Haïti)"
+     ],
+     "biographie":"Kelly Guerrier est diplômé de la FDS-UEH en génie civil en 2006. Il bénéficie la même année d’une bourse de doctorat en Sciences de l’Ingénieur à l’Université catholique de Louvain en Belgique dans le cadre d’une coopération universitaire entre l’UEH, l’Université catholique de Louvain et l’Université de Liège financé par la Commission Universitaire pour le Développement (CUD). En 2011, il est engagé comme enseignant chercheur à l'UEH. Il rentre définitivement en Haïti après sa soutenance de thèse en décembre de 2013. Actuellement, Kelly Guerrier est co-promoteur de 2 projets de coopération avec la Belgique financés par l'Académie pour la Recherche et l'Enseignement Supérieur (ARES) :  - urbanisme resilient et aménagement des territoires a risques (urbater) avec l'umons et l'uliège - earthquake hazard and vulnerability assessment – developing innovative solutions for sustainable risk reduction and communication in haiti avec l'uliège et l'unamur ",
+      "cours":["Risques,  climat et géologie ( M1-RCG2-214)",
+                "Résilience et gestion des risques humains"],
+     "expertise":[
+          "Géophysique",
+          "Géotechnique",
+          "Mouvements de sols"
+     ]
+} },
+    "creole":{
+        "title":"DIREKSYON",
+       "directeur": {
+          "nom":"Kelly GUERRIER",
+          "titre":"Enseignant-Chercheur",
+          "email":"kelly.guerrier@ueh.edu.ht",
+          "phone":"+50928171065",
+          "diplomes":[
+           " Administration Publique, 2017,École Nationale d'Administration et de Politiques Publiques (Haïti) ",
+          "Docteur en Sciences de l'Ingénieur, 2013, Université catholique de Louvain (Belgique) ",
+          "Ingénieur Civil, 2006, Université d'État d'Haïti (Haïti)"
+          ],
+          "biographie":"Kelly Guerrier est diplômé de la FDS-UEH en génie civil en 2006. Il bénéficie la même année d’une bourse de doctorat en Sciences de l’Ingénieur à l’Université catholique de Louvain en Belgique dans le cadre d’une coopération universitaire entre l’UEH, l’Université catholique de Louvain et l’Université de Liège financé par la Commission Universitaire pour le Développement (CUD). En 2011, il est engagé comme enseignant chercheur à l'UEH. Il rentre définitivement en Haïti après sa soutenance de thèse en décembre de 2013. Actuellement, Kelly Guerrier est co-promoteur de 2 projets de coopération avec la Belgique financés par l'Académie pour la Recherche et l'Enseignement Supérieur (ARES) :  - urbanisme resilient et aménagement des territoires a risques (urbater) avec l'umons et l'uliège - earthquake hazard and vulnerability assessment – developing innovative solutions for sustainable risk reduction and communication in haiti avec l'uliège et l'unamur",
+           "cours":["Risques,  climat et géologie ( M1-RCG2-214)",
+                     "Résilience et gestion des risques humains"],
+          "expertise":[
+               "Géophysique",
+               "Géotechnique",
+               "Mouvements de sols"
+          ]
+     } 
+ }
+   
+}

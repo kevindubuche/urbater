@@ -1,0 +1,19 @@
+{
+    "francais":{
+         "pourContacter":"POUR NOUS CONTACTER :",
+    "titleLeaveMsg":"Laisser un message",
+    "placeholderNom":"Nom et Prénom",
+    "placeholderMail":"Email",
+    "placeholderMsg":"Message",
+    "boutton":"Envoyer"
+ },
+    "creole":{
+        "pourContacter":"POU KONTAKTE NOU :",
+        "titleLeaveMsg":"Kite yon mesaj",
+        "placeholderNom":"Siyati ak non",
+        "placeholderMail":"Imel",
+        "placeholderMsg":"Mesaj",
+        "boutton":"Voye"
+     }
+   
+}

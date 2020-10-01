@@ -1,0 +1,123 @@
+{
+    "francais":{
+           "accueil":{
+                  "Accueil":"Accueil"
+           },
+         "mission":{
+                "Mission":"Mission",
+                "Presentation":"Présentation d’Urbater",
+                "Objectifs":"Objectifs / Démarche",
+                "Fondation":"Fondation",
+                "Partenaires":"Partenaires"
+         },
+                
+         "equipe":{
+               "Equipe":"Équipe",
+               "Direction":"Direction",
+               "Prof":"Professeurs",
+               "Internationale":"Équipe Internationale"
+         },
+               
+         "programme":{
+               "Programme":"Programme",
+               "Cheminement":"Cheminement et structure",
+               "Conditions":"Conditions d’admissibilité",
+               "Ressources":"Ressources",
+               "Perspectives":"Perspectives d’avenir",
+               "Couts":"Coûts",
+               "Mobilite":"Mobilite internationale"
+         },
+         
+         "recherche":{
+               "Recherche":"Recherche",
+               "LaRecherche":"La Recherche a UrBater",
+               "UrbaLab":"UrbaLab",
+               "These":"Theses et Memoire"
+         },
+         "publications":{
+               "Publications":"Publications"
+         },
+         "ressources":{
+               "Ressources":"Ressources",
+               "Lexique":"Lexique",
+               "Liens":"Liens utiles"
+         },
+         "activites":{
+               "Activites":"Activités",
+               "Konbit":"Konbit",
+               "Conferences":"Conférences"
+         },
+         "espace":{
+               "Espace":"Espace Étudiant",
+               "Info":"Informations Pratiques",
+               "Stage":"Stage",
+               "Prix":"Prix et Bourses",
+               "Collation":"Collation des grades",
+               "Acces":"Plateforme virtuelle"
+         },
+         "contact":{
+               "Contact":"Contact"
+         }
+    },
+    "creole":{
+       "accueil":{
+              "Accueil":"Akey"
+       },
+        "mission":{
+               "Mission":"Misyon",
+               "Presentation":"Prezatasyon Urbater",
+               "Objectifs":"Objektif / Demach",
+               "Fondation":"Fondasyon",
+               "Partenaires":"Partne"
+        },
+        
+        "equipe":{
+               "Equipe":"Ekip",
+               "Direction":"Direksyon",
+               "Prof":"Pwofese",
+               "Internationale":"Ekip Intenasyonal"
+        },
+     
+        "programme":{
+               "Programme":"Pwogram",
+               "Cheminement":"Cheminman ak strikti",
+               "Conditions":"Condisyon admisibilite",
+               "Ressources":"Resous",
+               "Perspectives":"Pespektiv avni",
+               "Couts":"Kou",
+               "Mobilite":"Mobilite intenasyonal"
+        },
+  
+        "recherche":{
+               "Recherche":"Rechech",
+               "LaRecherche":"Rechech nan UrBater",
+               "UrbaLab":"UrbaLab",
+               "These":"Tez ak Memwa"
+        },
+        "publications":{
+               "Publications":"Piblikasyon"
+        },
+        "ressources":{
+               "Ressources":"Resous",
+               "Lexique":"Leksik",
+               "Liens":"Lyen itil"
+        },
+        "activites":{
+               "Activites":"Aktivite",
+               "Konbit":"Konbit",
+               "Conferences":"Konferans"
+        },
+        "espace":{
+               "Espace":"Espas Etidyan",
+               "Info":"Infomasyon Pratik",
+               "Stage":"Staj",
+               "Prix":"Pri ak Bous",
+               "Collation":"Kolasyon grad yo",
+               "Acces":"Platfom vityel"
+        },
+        "contact":{
+               "Contact":"Kontak"
+        }
+     }
+   
+}
