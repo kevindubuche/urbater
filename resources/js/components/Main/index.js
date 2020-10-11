@@ -57,6 +57,7 @@ import AdminRegister from '../Admin/Register';
 import AdminConferences from '../Admin/Conferences';
 import AdminLexique from '../Admin/Lexique';
 import AdminPublications from '../Admin/Publications';
+import AdminDocArchimo from '../Admin/DocArchimo';
 
 import {PrivateRoute} from '../PrivateRoute'
 import Accueil from '../Accueil';
@@ -129,6 +130,7 @@ render(){
                          <PrivateRoute path="/admin/conferences" exact component={AdminConferences}/>
                          <PrivateRoute path="/admin/lexique" exact component={AdminLexique}/>
                          <PrivateRoute path="/admin/publications" exact component={AdminPublications}/>
+                         <PrivateRoute path="/admin/docarchimos" exact component={AdminDocArchimo}/>
 
                         <Route path="/login" exact component={ LoginForm } />
                        

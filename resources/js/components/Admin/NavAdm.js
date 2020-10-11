@@ -30,6 +30,9 @@ export default class NavAddm extends Component{
               <Link to="/admin/konbits">
                 <Button>Konbit</Button>
               </Link>
+              <Link to="/admin/docarchimos">
+                <Button>DocArchimo</Button>
+              </Link>
               <Link to="/admin/publications">
                 <Button>Publications</Button>
               </Link>

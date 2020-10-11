@@ -10,6 +10,7 @@ import lexiqueReducer from './lexiqueReducer';
 import searchReducer from './searchReducer';
 import mailReducer from './mailReducer';
 import publicationReducer from './publicationReducer';
+import docarchimoReducer from './docarchimoReducer';
 
 export default combineReducers({
     posts: postReducer,
@@ -23,4 +24,5 @@ export default combineReducers({
     resultatsSearch: searchReducer,
     mail: mailReducer,
     publications: publicationReducer,
+    docarchimos: docarchimoReducer,
 });

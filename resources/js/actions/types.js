@@ -10,7 +10,7 @@ export const API_CONFERENCE = '/api/conference';
 export const API_LEXIQUE = '/api/lexique';
 export const API_SEARCH = '/api/search';
 export const API_MAIL = '/api/sendmail';
-
+export const API_DOCARCHIMO = '/api/docarchimo';
 //.................................................
 
 // the actions name for the articles
@@ -79,6 +79,14 @@ export const EDIT_CONFERENCE = 'EDIT_CONFERENCE';
 export const CLEAR_NEW_CONFERENCE = 'CLEAR_NEW_CONFERENCE';
 
 //.................................................
+
+// the actions name for the docarchimo
+export const FETCH_DOCARCHIMOS = 'FETCH_DOCARCHIMOS';
+export const FETCH_DOCARCHIMO = 'FETCH_DOCARCHIMO';
+export const NEW_DOCARCHIMO = 'NEW_DOCARCHIMO';
+export const DELETE_DOCARCHIMO = 'DELETE_DOCARCHIMO';
+export const EDIT_DOCARCHIMO = 'EDIT_DOCARCHIMO';
+export const CLEAR_NEW_DOCARCHIMO = 'CLEAR_NEW_DOCARCHIMO';
 
 
 // the actions name for the annonces

@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 
 
-import TabKonbit from './TabKonbit';
+import TabDocarchimo from './TabDocarchimo';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import useStyles from '../../../Style/GeneralJSX';
@@ -64,7 +64,7 @@ export default function DocArchimo() {
            </Grid>
           </Grid>
        
-                   {/* <TabKonbit /> */}
+                   <TabDocarchimo />
             </Grid>
             
          </Grid>

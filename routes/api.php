@@ -34,6 +34,7 @@ Route::resource('konbit', 'Api\KonbitController');
 Route::resource('conference', 'Api\ConferenceController');
 Route::resource('lexique', 'Api\LexiqueController');
 Route::post('search','Api\AnnonceController@search');
+Route::resource('docarchimo', 'Api\DocarchimoController');
 // Route::get('blog/{id}','Api\BlogController@show');
 
 // Route::post('mail','Api\MailController@sendEmail');
