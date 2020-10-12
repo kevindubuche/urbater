@@ -111,10 +111,12 @@ export default function ListAnnonces(props) {
       createData(
         <Fragment key={index} >
         <Grid item xs={12} sm={3}>
-             <Link to={"/docarchimo/"+annonce.id}> 
+             {/* <Link to={"/docarchimo/"+annonce.id}>  */}
              {/* <img src={image} width={"80%"} height={"80%"}  /> */}
+             <a href = {"/docarchimos_files/"+annonce.filename} >
                   <img src={"/docarchimos_images/"+annonce.image} width={"80%"} height={"80%"}  />
-                  </Link>
+                  </a>
+                  {/* </Link> */}
                </Grid>
                <Grid item xs={12} sm={8}>
                    <Fragment>
@@ -123,7 +125,7 @@ export default function ListAnnonces(props) {
                                {moment(new Date(annonce.created_at)).locale("fr").format('LL') }
                        </Typography>
                        
-                       <Link to={"/docarchimo/"+annonce.id}> 
+                       {/* <Link to={"/docarchimo/"+annonce.id}>  */}
                        <Typography
                         variant="body1"
                          gutterBottom style={{ fontWeight:"bold",
@@ -131,17 +133,20 @@ export default function ListAnnonces(props) {
                          color:"black"}}>
                        {annonce.title}
                         </Typography>
-                       </Link>
-                       <Typography 
-                       variant="body2" 
-                       gutterBottom
-                       style={{fontFamily:"Arial Regular"}}>
-                       {annonce.resume}
-                   </Typography>
+                       {/* </Link> */}
+                    
+               
+                       <Fragment>
+                             <div className="content" style={{fontFamily:"Arial Regular"}}  dangerouslySetInnerHTML={{__html:annonce.resume} }></div>   
+                            </Fragment> 
+                  
+                      {annonce.filename ?
+                  <a href = {"/docarchimos_files/"+annonce.filename} target = "_blank">Télécharger la fiche PDF ici</a>      
+                  : '' }
+                   <br /> <br />
                    </Fragment>
                </Grid>
-               <iframe src="https://www.google.com/maps/d/embed?mid=11F5eh8vmO46WQEtP0SRnrZIbrsPYD9lP" width="640" height="480"></iframe>
-
+              
               <br /> <br /> <br /> <br />
               </Fragment >
   

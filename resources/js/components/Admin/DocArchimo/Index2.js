@@ -218,14 +218,17 @@ onSelectArticle = id =>{
                             </Typography >
                             <br /> <br />
                             {this.state.localArticle.filename ?
-                         <a href = {"/docarchimos_files/"+this.state.localArticle.filename} target = "_blank">Telecharger la fiche PDF ici</a>      
+                         <a href = {"/docarchimos_files/"+this.state.localArticle.filename} target = "_blank">Télécharger la fiche PDF ici</a>      
                          : '' }
                             
+                            <br />
                             <Typography
                             variant="h6"
-                            
-                            >         
-                            
+                            >               
+                            <Fragment>
+                             <div className="content" dangerouslySetInnerHTML={{__html:this.state.localArticle.resume} }></div>   
+                            </Fragment>       
+                                
                            
                          </Typography>
                         

@@ -56,12 +56,15 @@ export default function DocArchimo() {
               {TEXT.droite}
               </Typography> */}
               <div className={classes.body} style={{marginBottom:80}}>{TEXT.droite}
-            <p><a href={"mailto:" + TEXT.mail1}>{TEXT.mail1}</a></p>
-            <p><a href={ "mailto:" + TEXT.mail1}>{TEXT.mail1}</a></p>
+            <a href={"mailto:" + TEXT.mail1}>{TEXT.mail1}</a>
+            <br />
+            <a href={ "mailto:" + TEXT.mail1}>{TEXT.mail2}</a>
 
               </div>
                 
            </Grid>
+           <iframe src="https://www.google.com/maps/d/embed?mid=11F5eh8vmO46WQEtP0SRnrZIbrsPYD9lP" width="640" height="480"></iframe>
+
           </Grid>
        
                    <TabDocarchimo />

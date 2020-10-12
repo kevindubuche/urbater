@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import TextField from '@material-ui/core/TextField';
+import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import Button from '@material-ui/core/Button';
 
@@ -200,7 +201,7 @@ onScaleChange = (scaleValueEvent) =>{
               
                 <br />
                 <br />
-                    <TextField
+                    {/* <TextField
                 label="Resume"
                 onChange={this.handleChange('resume')}
                 value={this.state.localArticle.resume}
@@ -210,7 +211,44 @@ onScaleChange = (scaleValueEvent) =>{
                 className={this.props.classes.FormControl}
                 required
                 /> 
+                <br /> */}
                 <br />
+
+<CKEditor
+    editor={ ClassicEditor }
+    data={this.state.localArticle.resume}
+    //"<p>Ajoutez votre texte ici !</p>"
+    config={{ckfinder: {
+        // Upload the images to the server using the CKFinder QuickUpload command.
+        uploadUrl: 'https://example.com/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&responseType=json'
+    }}}
+    onInit={ (editor,body=this.state.localArticle.resume) => {
+        // You can store the "editor" and use when it is needed.
+        console.log( 'Editor is ready to use!', editor );
+        editor.data.set(body);
+    } }
+    
+    onChange={ ( event, editor ) => {
+        // this.handleCKChange(editor);
+        const data = editor.getData();
+        this.setState({
+            localArticle :{
+                ...this.state.localArticle,
+                resume:data
+            }
+})
+        console.log( { event, editor, data } );
+    } }
+    onBlur={ ( event, editor ) => {
+        console.log( 'Blur.', editor );
+    } }
+    onFocus={ ( event, editor ) => {
+        console.log( 'Focus.', editor );
+    } }
+    
+/>
+
+<br />
      
               <h6>Image</h6>
                 <input

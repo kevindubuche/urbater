@@ -19,7 +19,7 @@ class DocarchimoController extends Controller
      */
     public function index()
     {
-        $docarchimo = Docarchimo::orderBy('created_at', 'DESC')->get();
+        $docarchimo = Docarchimo::orderBy('title', 'ASC')->get();
         return response()->json([
             "success"=>true,
             "data"=>$docarchimo
@@ -107,12 +107,14 @@ class DocarchimoController extends Controller
 
 $file = $request->file('document');
 $filename = time().'.'.$file->getClientOriginalExtension();
-$destinationPath = public_path('docarchimos_files') . '/'.$filename;
-if(file_put_contents($destinationPath, file_get_contents($request->document))){
-// echo 'Uploaded file';
-}else{
-//echo "Unable to save the file.";
-}
+// $destinationPath = public_path('docarchimos_files') . '/'.$filename;
+file_put_contents(public_path().'/docarchimos_files/'.$filename, file_get_contents($request->document));
+          
+// if(file_put_contents($destinationPath, file_get_contents($request->document))){
+// // echo 'Uploaded file';
+// }else{
+// //echo "Unable to save the file.";
+// }
         //fin hadle document
             $user_token = $request->token;
      
@@ -242,12 +244,14 @@ if(file_put_contents($destinationPath, file_get_contents($request->document))){
          {
             $file = $request->file('document');
             $filename = time().'.'.$file->getClientOriginalExtension();
-            $destinationPath = public_path('docarchimos_files') . '/'.$filename;
-            if(file_put_contents($destinationPath, file_get_contents($request->document))){
-            // echo 'Uploaded file';
-            }else{
-            //echo "Unable to save the file.";
-            }
+            file_put_contents(public_path().'/docarchimos_files/'.$filename, file_get_contents($request->document));
+     
+            // $destinationPath = public_path('docarchimos_files') . '/'.$filename;
+            // if(file_put_contents($destinationPath, file_get_contents($request->document))){
+            // // echo 'Uploaded file';
+            // }else{
+            // //echo "Unable to save the file.";
+            // }
          }
          }
         $docarchimo->fill($request->except(["token","image"]));
