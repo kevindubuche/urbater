@@ -10,6 +10,7 @@ export const fetchAnnonces = () => dispatch => {
          }))
          .catch(error => {
             console.log(error);
+            
         });     
 
         }
@@ -51,6 +52,7 @@ export const createOrEditAnnonce = postData => dispatch => {
             }
             if(error.response.status==401){
                 console.log('ou pa gen authorisasion mon frere');
+                window.location.href = "/login";
             }
             
         })
@@ -68,6 +70,10 @@ export const createOrEditAnnonce = postData => dispatch => {
             })
             .catch(error => {
                 console.log(error);
+                if(error.response.status==401){
+                    console.log('ou pa gen authorisasion mon frere');
+                    window.location.href = "/login";
+                }
             })
     }
     
@@ -84,6 +90,10 @@ export const onDelete = id => dispatch => {
         })
         .catch(error => {
             console.log(error);
+            if(error.response.status==401){
+                console.log('ou pa gen authorisasion mon frere');
+                window.location.href = "/login";
+            }
         })
 }
 

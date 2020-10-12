@@ -277,7 +277,7 @@ onSelectArticle = id =>{
 
 Konbits.propTypes = {
     fetchKonbits : PropTypes.func.isRequired,
-    konbit : PropTypes.array.isRequired,
+    konbits : PropTypes.array.isRequired,
     newKonbit : PropTypes.object,
     onDelete : PropTypes.func.isRequired,
     clearNewKonbit : PropTypes.func.isRequired,

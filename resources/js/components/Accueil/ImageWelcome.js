@@ -7,7 +7,8 @@ import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import {useSelector} from 'react-redux';
 import data from './Accueil.json';
-import Background from '../../images/Urbater_ImageGenerique_Accueil-01.jpg';
+// import Background from '../../images/Urbater_ImageGenerique_Accueil-01.jpg';
+import Background from '../../images/azuei.jpg';
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     position: 'relative',

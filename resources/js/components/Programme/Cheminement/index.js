@@ -5,7 +5,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 // import Cours from './Cours';
-import fondation from '../../../images/Urbater_ImageGenerique_2.jpg';
+// import fondation from '../../../images/Urbater_ImageGenerique_2.jpg';
+import fondation from '../../../images/cheminement.jpg';
 
 
 import Paper from '@material-ui/core/Paper';

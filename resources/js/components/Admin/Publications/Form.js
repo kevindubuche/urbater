@@ -301,6 +301,6 @@ onScaleChange = (scaleValueEvent) =>{
     }
 }
 Form.propTypes = {
-    createOrEditublicationP : PropTypes.func.isRequired
+    createOrEditPublication : PropTypes.func.isRequired
 }
 export default connect(null, { createOrEditPublication })(withStyles (styles) (Form) )

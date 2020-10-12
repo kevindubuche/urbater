@@ -3,7 +3,8 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 
-import objectifs from '../../../images/Urbater_ImageGenerique_2.jpg';
+// import objectifs from '../../../images/Urbater_ImageGenerique_2.jpg';
+import objectifs from '../../../images/georges_corvington.jpeg';
 
 
 import Paper from '@material-ui/core/Paper';

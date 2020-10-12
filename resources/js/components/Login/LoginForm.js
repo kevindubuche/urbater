@@ -148,8 +148,8 @@ const {classes} = this.props;
               label="Se souvenir de moi"
             />
             
-           <p>{this.props.authResponse!=null && this.props.authResponse !="" ? this.props.authResponse :null }</p>
-             
+           <p style={{ color: 'red' }}>{this.props.authResponse!=null && this.props.authResponse !="" ? this.props.authResponse :null }</p>
+                       
             <Button
               type="submit"
               fullWidth
@@ -161,14 +161,14 @@ const {classes} = this.props;
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                {/* <Link href="#" variant="body2">
                  
-                </Link>
+                </Link> */}
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2">
+                {/* <Link href="#" variant="body2">
                   {""}
-                </Link>
+                </Link> */}
               </Grid>
             </Grid>
             <Box mt={5}>

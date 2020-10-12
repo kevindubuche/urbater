@@ -34,10 +34,12 @@ export const createOrEditMot = postData => dispatch => {
                 console.log(error.response.data);
                 console.log(error.response.status);
                 console.log(error.response.header);
+                
             }
             if(error.response.status==401){
-                console.log('ou pa gen authorisasion mon frere');
-            }
+              console.log('ou pa gen authorisasion mon frere');
+              window.location.href = "/login";
+          }
             
         })
     }
@@ -54,6 +56,10 @@ export const createOrEditMot = postData => dispatch => {
             })
             .catch(error => {
                 console.log(error);
+                if(error.response.status==401){
+                  console.log('ou pa gen authorisasion mon frere');
+                  window.location.href = "/login";
+              }
             })
     }
     
