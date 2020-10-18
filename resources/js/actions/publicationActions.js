@@ -32,12 +32,13 @@ export const fetchPublication = (id) => dispatch => {
 
 //cette fonction ajoute un nouveau article au database et update l'etat du store
 export const createOrEditPublication = postData => dispatch => { 
-    postData.token = localStorage.getItem('user')
-    if(!postData.id){
-        console.log('token :' +postData.token)
-        console.log('data :' +postData)
+    if(!postData.get('id')){
+        const config = {
+            headers: { "content-type": `multipart/form-data; boundary=${postData._boundary}` }
+          };
         // axios.defaults.headers.post['X-CSRF-Token']=postData.token;
-        axios.post(API_PUBLICATION, postData).then(response =>{
+        axios.post(API_PUBLICATION, postData, config)
+        .then(response =>{
         dispatch({
             type : NEW_PUBLICATION,
             payload : response.data.message
@@ -57,10 +58,11 @@ export const createOrEditPublication = postData => dispatch => {
         })
     }
     else{
-        console.log('se yon edit')
-        console.log('token :' +postData.token)
-        console.log('men data a: '+postData.image)
-        axios.put(API_PUBLICATION+'/'+postData.id, postData).then(response =>{
+        const config = {
+            headers: { "content-type": `multipart/form-data; boundary=${postData._boundary}` }
+          };
+          axios.post(API_PUBLICATION+'/'+postData.get('id'), postData,config)
+           .then(response =>{
             console.log(response.data)
             dispatch({
                 type : EDIT_PUBLICATION,

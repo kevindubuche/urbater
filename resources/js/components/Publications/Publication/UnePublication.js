@@ -37,8 +37,8 @@ class UnePublication extends Component {
             
             <div>
                  <Grid item xs={12} sm={3}>
-                 <img src={image} style={{height:'80%',width:'80%'}} />
-                  {/* <img src={"/publications_images/"+this.props.publication.image} style={{height:'80%',width:'80%'}} /> */}
+                 {/* <img src={image} style={{height:'80%',width:'80%'}} /> */}
+                  <img src={"/publications_images/"+this.props.publication.image} style={{height:'80%',width:'80%'}} />
                   
                   </Grid>
                      <Grid item xs={12} sm={9}>
@@ -59,6 +59,9 @@ class UnePublication extends Component {
                          <Fragment>
                              <div className="content" style={{fontFamily:"Arial Regular"}}  dangerouslySetInnerHTML={{__html:this.props.publication.body} }></div>   
                             </Fragment>  
+                            {this.props.publication.filename ?
+                  <a href = {"/publications_files/"+this.props.publication.filename} target = "_blank">Télécharger la fiche PDF ici</a>      
+                  : '' }
                          </Typography>
                      </Fragment>
                  </Grid>

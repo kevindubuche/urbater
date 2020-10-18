@@ -30,6 +30,7 @@ const styles = theme =>({
                    keyWords:'',
                    created_at: '',
                    updated_at : '',
+                   document: '',
                 //    token : localStorage.getItem('user')
                },
                imagePreviewUrl:'',
@@ -39,6 +40,8 @@ const styles = theme =>({
               scaleValue:1,
             
            }
+           this.handleInputChange = this.handleInputChange.bind(this);
+
    }
    componentDidMount(){
     this.setState({
@@ -52,6 +55,7 @@ const styles = theme =>({
             keyWords:'',
             created_at: '',
             updated_at : '',
+            document: '',
             // token : localStorage.getItem('user')
      },
      imagePreviewUrl:''
@@ -70,7 +74,20 @@ const styles = theme =>({
     // TODO : validate
     e.preventDefault();
     this.onCrop();
-    this.props.createOrEditPublication(this.state.localArticle);
+    const data = new FormData() 
+    
+    data.append('title', this.state.localArticle.title);
+    data.append('body', this.state.localArticle.body);
+    data.append('author',this.state.localArticle.author);
+    data.append('source',this.state.localArticle.source);
+    data.append('resume', this.state.localArticle.resume);
+    data.append('document',this.state.localArticle.document);
+    data.append('keyWords', this.state.localArticle.keyWords);
+    data.append('image',this.state.localArticle.image);
+    data.append('token',localStorage.getItem('user'));
+    this.state.localArticle.id ? data.append('id', parseInt(this.state.localArticle.id)) : '';
+    this.state.localArticle.id ? data.append("_method", "put"): '';
+    this.props.createOrEditPublication(data);
     //si c'est SAVE on ferme le modal & si EDIT on affiche succes
     !this.state.localArticle.id ? this.props.closeModal() :this.props.openAlert();
    
@@ -122,7 +139,15 @@ profileImageChange = (fileChangeEvent) =>{
 
     
 }
-
+handleInputChange(event) {
+    this.setState({
+        localArticle :{
+            ...this.state.localArticle,
+            document: event.target.files[0],
+        }
+        
+      });
+}
 onCrop =(e) =>{
     const {editor} = this.state;
     if(editor != null){
@@ -284,6 +309,17 @@ onScaleChange = (scaleValueEvent) =>{
                 />
                 </div >
                
+                <br />
+                <br /> 
+                <h6>Document</h6>
+                
+                <input type="file" 
+                className="form-control"
+                 name="upload_file"
+                  onChange={this.handleInputChange}
+                  required />
+  
+
                 <br />
              
                 <Button

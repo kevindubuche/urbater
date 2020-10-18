@@ -143,11 +143,10 @@ export default function ListAnnonces(props) {
                       {annonce.filename ?
                   <a href = {"/docarchimos_files/"+annonce.filename} target = "_blank">Télécharger la fiche PDF ici</a>      
                   : '' }
-                   <br /> <br />
+                  
                    </Fragment>
                </Grid>
-              
-              <br /> <br /> <br /> <br />
+            
               </Fragment >
   
     )) )

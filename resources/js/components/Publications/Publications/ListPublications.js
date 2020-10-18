@@ -111,8 +111,8 @@ export default function ListPublications(props) {
       <div key={index}>
       <Grid item xs={12} sm={3}>
           <Link to={"/publication/"+publication.id}>
-          <img src={image} style={{height:'80%',width:'80%'}}  />
-           {/* <img src={"/publications_images/"+publication.image} style={{height:'80%',width:'80%'}}  /> */}
+          {/* <img src={image} style={{height:'80%',width:'80%'}}  /> */}
+           <img src={"/publications_images/"+publication.image} style={{height:'80%',width:'80%'}}  />
            </Link>
            </Grid>
               <Grid item xs={12} sm={9}>
@@ -135,6 +135,9 @@ export default function ListPublications(props) {
                   <Typography variant="body2" gutterBottom tooltip="Description here" style={{cursor:"pointer"}}>
                  {publication.resume}
               </Typography>
+              {publication.filename ?
+                  <a href = {"/publications_files/"+publication.filename} target = "_blank">Télécharger la fiche PDF ici</a>      
+                  : '' }
               </Fragment>
           </Grid>
           </div>

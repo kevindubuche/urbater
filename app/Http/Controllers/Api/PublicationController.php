@@ -84,6 +84,11 @@ class PublicationController extends Controller
                 ],500);
             }
         }
+        $folderPath = "publications_files/";
+        $file = $request->file('document');
+        $filename = time().'.'.$file->getClientOriginalExtension();
+        file_put_contents(public_path().'/publications_files/'.$filename, file_get_contents($request->document));
+                
             $user_token = $request->token;
      
                 $user = auth('users')->authenticate($user_token);
@@ -103,6 +108,7 @@ class PublicationController extends Controller
             $publication = new Publication();
             $publication->fill($request->except(["token","image"]));
             $publication->image =$file_name;
+            $publication->filename =$filename;
 
             $publication->save();
 
@@ -161,7 +167,12 @@ class PublicationController extends Controller
         
         $user_token = $request->token;
         $user = auth('users')->authenticate($user_token); 
-
+        if(!$user){
+            return response()->json([
+          "success"=>false,
+          "message"=>"Vous n'avez pas l'autorisation. Votrre session est peut etre expiree. Connectez-vous SVP."
+      ],401);
+       } 
        $getFile = $publication->image;
        $profile_picture = $request->image;
        if($request->image != $publication->image)//si on a change l'image
@@ -195,9 +206,24 @@ class PublicationController extends Controller
             }
         }
         }
+        if($request->file('document') != $publication->filename)//si on a change l'image
+        {
+        File::delete(public_path().'/publications_files/'.$publication->filename);
+          
+        //  $image_name = null;
+         if($request->file('document') !=null)
+         {
+            $file = $request->file('document');
+            $filename = time().'.'.$file->getClientOriginalExtension();
+            file_put_contents(public_path().'/publications_files/'.$filename, file_get_contents($request->document));
+     
+         }
+         }
         $publication->fill($request->except(['token','image']));
+        $publication->filename = ($request->filename == $publication->filename) ? $request->filename  : $filename ;
+ 
         $publication->image= ($request->image == $publication->image) ? $request->image  : $file_name ;
-        $publication->save();
+        $publication->update();
 
         if($profile_picture ==null){
 
@@ -230,6 +256,7 @@ class PublicationController extends Controller
                $publication=Publication::find($id); 
                $getFile = $publication->image;
                $getFile=="default-avatar.png"? :File::delete(public_path().'/publications_images/'.$getFile);
+               File::delete(public_path().'/publications_files/'.$publication->filename);
                //an dnou delete aticle la
                DB::table('publications')->where('id',$id)->delete();
                
