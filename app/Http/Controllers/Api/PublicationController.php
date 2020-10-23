@@ -48,7 +48,6 @@ class PublicationController extends Controller
         $validator = Validator::make($request->all(),
         [
             'title'=>'required|string',
-            'body'=>'required|string',
             'author'=>'required|string',
             'source'=>'required|string',
             'resume'=>'required|string',
@@ -84,11 +83,13 @@ class PublicationController extends Controller
                 ],500);
             }
         }
+        $filename = null;
+        if($request->file('document') !=null){
         $folderPath = "publications_files/";
         $file = $request->file('document');
         $filename = time().'.'.$file->getClientOriginalExtension();
         file_put_contents(public_path().'/publications_files/'.$filename, file_get_contents($request->document));
-                
+        }
             $user_token = $request->token;
      
                 $user = auth('users')->authenticate($user_token);
@@ -181,7 +182,7 @@ class PublicationController extends Controller
          
         $file_name = "";
         if($profile_picture==null){
-            $file_name= "default-avatar.png";
+            $file_name= $publication->image;
         }
         else{
             $genarate_name = uniqid()."_".time().date("Ymd")."_IMG";
@@ -204,25 +205,31 @@ class PublicationController extends Controller
 
                 ],500);
             }
+            $publication->image= ($request->image == $publication->image) ? $request->image  : $file_name ;
         }
         }
-        if($request->file('document') != $publication->filename)//si on a change l'image
+        if($request->file('document') == null)//si on a change l'image
         {
+            
+        }
+        else
+        {
+           
         File::delete(public_path().'/publications_files/'.$publication->filename);
           
         //  $image_name = null;
-         if($request->file('document') !=null)
-         {
+       
             $file = $request->file('document');
             $filename = time().'.'.$file->getClientOriginalExtension();
             file_put_contents(public_path().'/publications_files/'.$filename, file_get_contents($request->document));
+
+            $publication->filename =  $filename ;
      
-         }
+         
          }
         $publication->fill($request->except(['token','image']));
-        $publication->filename = ($request->filename == $publication->filename) ? $request->filename  : $filename ;
- 
-        $publication->image= ($request->image == $publication->image) ? $request->image  : $file_name ;
+       
+       
         $publication->update();
 
         if($profile_picture ==null){

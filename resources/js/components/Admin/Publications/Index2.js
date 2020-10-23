@@ -55,8 +55,10 @@ class  Publications extends Component {
                body:'',
                author : '',
                source : '',
+               image: '',
                created_at: '',
-               updated_at : ''
+               updated_at : '',
+               document: '',
                
            }
        }

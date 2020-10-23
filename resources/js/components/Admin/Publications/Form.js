@@ -317,7 +317,7 @@ onScaleChange = (scaleValueEvent) =>{
                 className="form-control"
                  name="upload_file"
                   onChange={this.handleInputChange}
-                  required />
+                   />
   
 
                 <br />

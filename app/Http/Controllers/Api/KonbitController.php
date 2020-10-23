@@ -49,7 +49,7 @@ class KonbitController extends Controller
         $validator = Validator::make($request->all(),
         [
             'title'=>'required|string',
-            'body'=>'required|string',
+          
             'author'=>'required|string',
             'source'=>'required|string',
             'resume'=>'required|string',
