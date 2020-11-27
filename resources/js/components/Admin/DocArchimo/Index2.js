@@ -26,9 +26,9 @@ import Slide from '@material-ui/core/Slide';
 
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { fetchDocarchimos } from '../../../actions/docarchimoActions';
-import { onDelete } from '../../../actions/docarchimoActions';
-import { clearNewDocarchimo } from '../../../actions/docarchimoActions';
+import { fetchDocarchimos } from '../../../actions/docArchimoActions';
+import { onDelete } from '../../../actions/docArchimoActions';
+import { clearNewDocarchimo } from '../../../actions/docArchimoActions';
 
 
 import Form from './Form';

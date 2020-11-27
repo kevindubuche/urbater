@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { fetchDocarchimos } from '../../../../actions/docarchimoActions';
+import { fetchDocarchimos } from '../../../../actions/docArchimoActions';
 import ListDocarchimos from './ListDocarchimos';
 
  class AllDocarchimos extends Component {

@@ -276,12 +276,16 @@ onScaleChange = (scaleValueEvent) =>{
                     editor={ ClassicEditor }
                     data={this.state.localArticle.body}
                     //"<p>Ajoutez votre texte ici !</p>"
-                    config={{ckfinder: {
-                        // Upload the images to the server using the CKFinder QuickUpload command.
-                        uploadUrl: 'https://example.com/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&responseType=json'
+                    config={{
                         
-                    }
+                        ckfinder: {
+                            
+                        // Upload the images to the server using the CKFinder QuickUpload command.
+                        uploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json',
+	      
+                    },
                 }}
+                
                     onInit={ (editor,body=this.state.localArticle.body) => {
                         // You can store the "editor" and use when it is needed.
                         console.log( 'Editor is ready to use!', editor );
