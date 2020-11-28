@@ -46,6 +46,12 @@ export default function Demarche() {
           <Typography variant="h5" className={classes.title}> {TEXT.title}</Typography>
               <h6><strong>{TEXT.titlePrixCorvington}</strong></h6>
                 <div className={classes.body}>{TEXT.body}</div>
+                <br></br>
+                <div className={classes.body}>{TEXT.textLink}</div>
+                <br></br>
+                <a href="/files/Prix_Georges_Corvington_2020.pdf" target='_blank' >   
+                {TEXT.link}
+             </a>
                 </Grid>
             
          </Grid>
