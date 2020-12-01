@@ -32,12 +32,14 @@ export const fetchKonbit = (id) => dispatch => {
 
 //cette fonction ajoute un nouveau article au database et update l'etat du store
 export const createOrEditKonbit = postData => dispatch => { 
-    postData.token = localStorage.getItem('user')
-    if(!postData.id){
-        console.log('token :' +postData.token)
-        console.log('data :' +postData)
+    // postData.token = localStorage.getItem('user')
+ 
+    if(!postData.get('id')){
+        const config = {
+            headers: { "content-type": `multipart/form-data; boundary=${postData._boundary}` }
+          };
         // axios.defaults.headers.post['X-CSRF-Token']=postData.token;
-        axios.post(API_KONBIT, postData).then(response =>{
+        axios.post(API_KONBIT, postData, config).then(response =>{
         dispatch({
             type : NEW_KONBIT,
             payload : response.data.message
@@ -57,10 +59,11 @@ export const createOrEditKonbit = postData => dispatch => {
         })
     }
     else{
-        console.log('se yon edit')
-        console.log('token :' +postData.token)
-        console.log('men data a: '+postData.image)
-        axios.put(API_KONBIT+'/'+postData.id, postData).then(response =>{
+        const config = {
+            headers: { "content-type": `multipart/form-data; boundary=${postData._boundary}` }
+          };
+   
+        axios.post(API_KONBIT+'/'+postData.get('id'), postData, config).then(response =>{
             console.log(response.data)
             dispatch({
                 type : EDIT_KONBIT,

@@ -49,9 +49,7 @@ class KonbitController extends Controller
         $validator = Validator::make($request->all(),
         [
             'title'=>'required|string',
-          
             'author'=>'required|string',
-            'source'=>'required|string',
             'resume'=>'required|string',
         ]);
         if($validator->fails()){
@@ -85,25 +83,36 @@ class KonbitController extends Controller
                 ],500);
             }
         }
-            $user_token = $request->token;
+  
      
+              $user_token = $request->token;     
                 $user = auth('users')->authenticate($user_token);
-       
                  if(!$user){
                       return response()->json([
                     "success"=>false,
                     "message"=>"Vous n'avez pas l'autorisation. Votrre session est peut etre expiree. Connectez-vous SVP."
                 ],401);
                  }
-               
+
+             $konbit = new Konbit();    
             
-            
+         //handle document
+          $folderPath = "konbit_files/";
+          if($request->file('document'))
+          {
+            $file = $request->file('document');
+            $filename = time().'.'.$file->getClientOriginalExtension();
+            file_put_contents(public_path().'/konbit_files/'.$filename, file_get_contents($request->document));
+             
+            $konbit->filename =$filename;
+          }
 
            
 
-            $konbit = new Konbit();
+          
             $konbit->fill($request->except(["token","image"]));
             $konbit->image =$file_name;
+        
 
             $konbit->save();
 
@@ -154,14 +163,20 @@ class KonbitController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+ 
     public function update(Request $request, $id)
     {
         $konbit=Konbit::find($id); 
        //pa bliye valider
         // return response()->json($request);
-        
         $user_token = $request->token;
         $user = auth('users')->authenticate($user_token); 
+        if(!$user){
+            return response()->json([
+          "success"=>false,
+          "message"=>"Vous n'avez pas l'autorisation. Votrre session est peut etre expiree. Connectez-vous SVP."
+      ],401);
+       } 
 
        $getFile = $konbit->image;
        $profile_picture = $request->image;
@@ -196,9 +211,27 @@ class KonbitController extends Controller
             }
         }
         }
+        if($request->file('document') )
+        {
+            if($request->file('document') != $konbit->filename)//si on a change l'image
+            {
+                File::delete(public_path().'/konbit_files/'.$konbit->filename);
+                if($request->file('document') !=null)
+                {
+                    $file = $request->file('document');
+                    $filename = time().'.'.$file->getClientOriginalExtension();
+                    file_put_contents(public_path().'/konbit_files/'.$filename, file_get_contents($request->document));
+                }
+             }
+             $konbit->filename = ($request->filename == $konbit->filename) ? $request->filename  : $filename ;
+ 
+        }
+     
         $konbit->fill($request->except(['token','image']));
         $konbit->image= ($request->image == $konbit->image) ? $request->image  : $file_name ;
-        $konbit->save();
+       
+  
+        $konbit->update();
 
         if($profile_picture ==null){
 
@@ -231,6 +264,8 @@ class KonbitController extends Controller
                $konbit=Konbit::find($id); 
                $getFile = $konbit->image;
                $getFile=="default-avatar.png"? :File::delete(public_path().'/konbits_images/'.$getFile);
+               File::delete(public_path().'/konbit_files/'.$konbit->filename);
+            
                //an dnou delete aticle la
                DB::table('konbits')->where('id',$id)->delete();
                

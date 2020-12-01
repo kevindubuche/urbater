@@ -54,6 +54,10 @@ class UnKonbit extends Component {
                           <Fragment>
                              <div className="content" dangerouslySetInnerHTML={{__html:this.props.konbit.body} }></div>   
                           </Fragment>  
+                          <br></br>
+                          {this.props.konbit.filename ?
+                        <a href = {"/konbit_files/"+this.props.konbit.filename} target = "_blank">Télécharger </a>      
+                        : '' }
                      </Fragment>
                  </Grid>
             </div>

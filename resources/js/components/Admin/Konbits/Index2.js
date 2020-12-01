@@ -219,7 +219,13 @@ onSelectArticle = id =>{
                             <br />
                             <Typography
                             variant="h6"
-                            >               
+                            > 
+                               <br /> <br />
+                            {this.state.localArticle.filename ?
+                         <a href = {"/konbit_files/"+this.state.localArticle.filename} target = "_blank">Télécharger</a>      
+                         : '' }
+                            
+                            <br />              
                             <Fragment>
                              <div className="content" dangerouslySetInnerHTML={{__html:this.state.localArticle.body} }></div>   
                             </Fragment>       

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc94b00e44e10f2459d4b7e8f52fba38",
+    "content-hash": "678465ddaa8245817d3bfe541f3255a3",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -334,6 +334,7 @@
             ],
             "time": "2019-12-20T13:11:11+00:00"
         },
+       
         {
             "name": "jakub-onderka/php-console-color",
             "version": "v0.2",
@@ -374,6 +375,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -420,6 +422,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -5344,5 +5347,6 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
