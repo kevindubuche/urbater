@@ -16,6 +16,7 @@ import mtptc from '../../images/logoPartenaires/mtptc.png';
 import omrh from '../../images/logoPartenaires/omrh.jpg';
 import ueh from '../../images/logoPartenaires/ueh.png';
 import umons from '../../images/logoPartenaires/umons.png';
+import liege from '../../images/logoPartenaires/liege.png';
 
 
 export default class Partenaires extends Component {
@@ -50,6 +51,7 @@ export default class Partenaires extends Component {
             <img src={fds} width={"170px"} height={"80px"} style={{marginRight:50}} />
                 <img src={mairiedelmas} width={"100px"} height={"100px"} style={{marginRight:50}} />
                 <img src={umons} width={"170px"} height={"80px"} style={{marginRight:50}} />
+                <img src={liege} width={"170px"} height={"80px"} style={{marginRight:50}} />
         </div>
             </div>
     
